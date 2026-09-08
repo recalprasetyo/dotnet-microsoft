@@ -1,0 +1,15 @@
+C:\Developer\Programming\C#\dotnet-microsoft\4-learn-csharp\part-2\Project-1\bin\Debug\net10.0\Project-1.exe
+C:\Developer\Programming\C#\dotnet-microsoft\4-learn-csharp\part-2\Project-1\bin\Debug\net10.0\Project-1.deps.json
+C:\Developer\Programming\C#\dotnet-microsoft\4-learn-csharp\part-2\Project-1\bin\Debug\net10.0\Project-1.runtimeconfig.json
+C:\Developer\Programming\C#\dotnet-microsoft\4-learn-csharp\part-2\Project-1\bin\Debug\net10.0\Project-1.dll
+C:\Developer\Programming\C#\dotnet-microsoft\4-learn-csharp\part-2\Project-1\bin\Debug\net10.0\Project-1.pdb
+C:\Developer\Programming\C#\dotnet-microsoft\4-learn-csharp\part-2\Project-1\obj\Debug\net10.0\Project-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Developer\Programming\C#\dotnet-microsoft\4-learn-csharp\part-2\Project-1\obj\Debug\net10.0\Project-1.AssemblyInfoInputs.cache
+C:\Developer\Programming\C#\dotnet-microsoft\4-learn-csharp\part-2\Project-1\obj\Debug\net10.0\Project-1.AssemblyInfo.cs
+C:\Developer\Programming\C#\dotnet-microsoft\4-learn-csharp\part-2\Project-1\obj\Debug\net10.0\Project-1.csproj.CoreCompileInputs.cache
+C:\Developer\Programming\C#\dotnet-microsoft\4-learn-csharp\part-2\Project-1\obj\Debug\net10.0\Project-1.sourcelink.json
+C:\Developer\Programming\C#\dotnet-microsoft\4-learn-csharp\part-2\Project-1\obj\Debug\net10.0\Project-1.dll
+C:\Developer\Programming\C#\dotnet-microsoft\4-learn-csharp\part-2\Project-1\obj\Debug\net10.0\refint\Project-1.dll
+C:\Developer\Programming\C#\dotnet-microsoft\4-learn-csharp\part-2\Project-1\obj\Debug\net10.0\Project-1.pdb
+C:\Developer\Programming\C#\dotnet-microsoft\4-learn-csharp\part-2\Project-1\obj\Debug\net10.0\Project-1.genruntimeconfig.cache
+C:\Developer\Programming\C#\dotnet-microsoft\4-learn-csharp\part-2\Project-1\obj\Debug\net10.0\ref\Project-1.dll
