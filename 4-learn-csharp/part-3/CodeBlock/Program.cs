@@ -20,3 +20,19 @@ if (true)
 }
 
 Console.WriteLine($"Outside the code block: {value}");
+
+string name = "steve";
+if (name == "bob") Console.WriteLine("Found Bob");
+else if (name == "steve") Console.WriteLine("Found Steve");
+else Console.WriteLine("Found Chuck");
+
+// compare code
+
+string name2 = "steve";
+
+if (name2 == "bob")
+    Console.WriteLine("Found Bob");
+else if (name2 == "steve")
+    Console.WriteLine("Found Steve");
+else
+    Console.WriteLine("Found Chuck");
