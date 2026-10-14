@@ -45,3 +45,20 @@ Console.WriteLine($"decimal: {myDecimal}");
 // string value2 = "7";
 // int result = Convert.ToInt32(value1) * Convert.ToInt32(value2);
 // Console.WriteLine(result);
+
+string name = "Bob";
+Console.WriteLine(int.Parse(name));
+
+string value1 = "bad";
+int result1 = 0;
+if (int.TryParse(value1, out result1))
+{
+    Console.WriteLine($"Measurement: {result1}");
+}
+else
+{
+    Console.WriteLine("Unable to report the measurement.");
+}
+
+if (result1 > 0)
+    Console.WriteLine($"Measurement (w/ offset): {50 + result1}");
