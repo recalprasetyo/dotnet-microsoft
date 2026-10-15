@@ -62,3 +62,24 @@ else
 
 if (result1 > 0)
     Console.WriteLine($"Measurement (w/ offset): {50 + result1}");
+
+string[] values = { "12.3", "45", "ABC", "11", "DEF" };
+
+decimal total = 0m;
+string message = "";
+
+foreach (var value in values)
+{
+    decimal number; // stores the TryParse "out" value
+    if (decimal.TryParse(value, out number))
+    {
+        total += number;
+    }
+    else
+    {
+        message += value;
+    }
+}
+
+Console.WriteLine($"Message: {message}");
+Console.WriteLine($"Total: {total}");
