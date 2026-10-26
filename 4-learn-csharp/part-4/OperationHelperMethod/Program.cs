@@ -73,3 +73,23 @@ foreach (string item in items)
 {
     Console.WriteLine(item);
 }
+
+string pangram = "The quick brown fox jumps over the lazy dog";
+// ehT kciuq nworb xof spmuj revo eht yzal god
+
+pangram = pangram.ToLower();
+char[] pangramArray = pangram.ToCharArray();
+Array.Reverse(pangramArray);
+string reversedPangram = new string(pangramArray);
+Console.WriteLine(reversedPangram);
+
+// string[] message = pangram.Split(' ');
+// string[] newMessage = new string[message.Length];
+// for (int i = 0; i < message.Length; i++)
+// {
+//     char[] letters = message[i].ToCharArray();
+//     Array.Reverse(letters);
+//     newMessage[i] = new string(letters);
+// }
+// string result2 = String.Join(" ", newMessage);
+// Console.WriteLine(result2);
