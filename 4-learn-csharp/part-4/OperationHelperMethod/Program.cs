@@ -93,3 +93,20 @@ Console.WriteLine(reversedPangram);
 // }
 // string result2 = String.Join(" ", newMessage);
 // Console.WriteLine(result2);
+
+// In this challenge you have to parse the individual "Order IDs", and output the "OrderIDs" sorted and tagged as "Error" if they aren't exactly four characters in length.
+string orderStream = "B123,C234,A345,C15,B177,G3003,C235,B179";
+
+string[] orderIDs = orderStream.Split(',');
+Array.Sort(orderIDs);
+foreach (string orderID in orderIDs)
+{
+    if (orderID.Length != 4)
+    {
+        Console.WriteLine($"{orderID} Error");
+    }
+    else
+    {
+        Console.WriteLine(orderID);
+    }
+}
